@@ -1,11 +1,9 @@
-var xUser = prompt("Please enter X name: ") 
-var oUser = prompt("Please enter O name: ") 
-
 //Vars
 let tit = document.querySelector(".title")
 let turn = 'x'
 let square = []
-
+var xUser = prompt("Please enter X name: ") 
+var oUser = prompt("Please enter O name: ") 
 //win function
 let win = (num1,num2,num3) =>{
     let hasName = (square[num1] === 'x') ? xUser : oUser;
